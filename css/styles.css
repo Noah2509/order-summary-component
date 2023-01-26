@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: red hat display;
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 50%;
+  background-color: hsl(225, 100%, 94%);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: hsl(225, 100%, 98%);
+  width: 25%;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.header {
+  padding: 10px 30px;
+}
+
+.hero-img {
+  width: 100%;
+  margin-bottom: 25px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+h1 {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.action-text {
+  color: hsl(224, 23%, 55%);
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.plan-container {
+  background-color: rgb(224 232 255 / 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  margin: 10px 25px 25px;
+  border-radius: 10px;
+}
+
+.left-container {
+  display: flex;
+  gap: 20px;
+}
+
+.music-img {
+  flex: 1;
+}
+
+.plan {
+  display: flex;
+  flex: 0 0 75px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 1.5;
+  font-size: 0.8rem;
+}
+
+.plan-span {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+}
+
+.plan-price {
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+a:link {
+  color: hsl(245, 75%, 52%);
+  font-size: 0.7rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+a:link:hover {
+  color: hsl(245, 75%, 52%);
+  text-decoration: none;
+  opacity: 50%;
+}
+
+button {
+  background-color: hsl(245, 75%, 52%);
+  color: hsl(225, 100%, 98%);
+  padding: 10px 75px;
+  border: 0;
+  border-radius: 10px;
+  font-weight: 900;
+  font-size: 0.7rem;
+  box-shadow: 0 20px 10px 1px hsl(225, 100%, 94%);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: hsl(245, 75%, 52%);
+  opacity: 50%;
+}
+
+.cancel {
+  color: hsl(224, 23%, 55%);
+  font-size: 0.7rem;
+  font-weight: 700;
+  margin: 25px 0 30px;
+}
